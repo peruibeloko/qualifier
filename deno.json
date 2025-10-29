@@ -4,7 +4,9 @@
   },
   "imports": {
     "@/": "./src/",
-    "hono": "jsr:@hono/hono@^4.7.10"
+    "@hono/valibot-validator": "jsr:@hono/valibot-validator@^0.5.3",
+    "@valibot/valibot": "jsr:@valibot/valibot@^1.1.0",
+    "hono": "jsr:@hono/hono@^4.10.3"
   },
   "fmt": {
     "options": {
