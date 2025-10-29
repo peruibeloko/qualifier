@@ -4,8 +4,9 @@
   },
   "imports": {
     "@/": "./src/",
-    "@hono/valibot-validator": "jsr:@hono/valibot-validator@^0.5.3",
-    "@valibot/valibot": "jsr:@valibot/valibot@^1.1.0",
+    "@hono/zod-validator": "jsr:@hono/zod-validator@^0.7.4",
+    "@openai/openai": "jsr:@openai/openai@^6.7.0",
+    "@zod/zod": "jsr:@zod/zod@^4.1.12",
     "hono": "jsr:@hono/hono@^4.10.3"
   },
   "fmt": {

@@ -1,10 +1,10 @@
-import * as v from "@valibot/valibot";
+import * as z from '@zod/zod';
 
-export const NewDomainRequest = v.object({
-  domain: v.url()
+export const NewDomainRequest = z.object({
+  domain: z.url()
 });
 
-export const NewProspectsRequest = v.object({
-  domains: v.array(v.url()),
-  icpId: v.uuid()
+export const NewProspectsRequest = z.object({
+  domains: z.array(z.url()),
+  icpId: z.uuid()
 });
