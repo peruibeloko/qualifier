@@ -14,6 +14,20 @@
 - With persistence comes a shareable link for ICPs
 - Pluggable databases (pick between Postgres and Supabase)
 
+## Setup
+
+1. Clone the repo
+1. Create `.env` file
+1. `deno install`
+1. `deno task start`
+1. Enjoy!
+
+## Deploy
+
+My recommendation is to use Deno Deploy, as it makes the deployment process almost entirely automatic.
+
+For all other purposes, follow your platform of choice's option for "self-hosted applications" (EC2 on AWS, for example)
+
 ## Endpoints
 
 ### `/icp`

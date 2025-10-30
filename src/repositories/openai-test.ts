@@ -1,3 +1,5 @@
+// Use this to test the API!
+
 fetch('/icp', {
   method: 'POST',
   headers: {
