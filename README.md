@@ -1,3 +1,15 @@
-# Template Repo for Deno REST APIs
+# ICP Qualifier
 
-This exposes a very simple `/status/:number` endpoint on port 8080 which returns the text for the provided status code. It uses [httpstat.us](http://httpstat.us/) as the source of status code info and [Hono](https://hono.dev/) as the framework.
+## Current features
+
+- Simple REST API (`/icp` and `/prospects`)
+- OpenAI integration with GPT-5
+- Scalable architecture
+- Modern tooling (Deno, Deno Deploy, Hono, JSR)
+- Minimal dependencies (Hono, OpenAI SDK, Zod)
+
+## Planned features
+
+- Persistence (already in place, but no implementation)
+- With persistence comes a shareable link for ICPs
+- Pluggable databases (pick between Postgres and Supabase)
